@@ -11,10 +11,16 @@ function BrandPage({ brands }) {
 
   return (
     <div className="max-w-2xl mx-auto bg-white shadow-lg rounded-2xl p-6">
-    <div>
-    <h2 className="text-2xl font-bold text-indigo-600 mb-4">{brand.name}</h2>
-
-    </div>
+      <div className="flex flex-col justify-center items-center mb-6">
+      <img 
+            src={require(`../img/${brand.image}.png`)} 
+            alt={brand.name}
+            className="w-1/5 h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          />
+        <h2 className="text-2xl font-bold text-indigo-600 mb-4">
+          {brand.name}
+        </h2>
+      </div>
       <ul className="space-y-3">
         {brand.branches.map((branch, idx) => (
           <li key={idx} className="border-b pb-2">
