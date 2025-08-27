@@ -31,11 +31,7 @@ export function BrandCard({ brand }) {
               />
             </div>
             <div className={`absolute inset-0 bg-gradient-to-br ${colorClass} opacity-10 group-hover:opacity-20 transition-opacity duration-300`}></div>
-            <div className="absolute top-4 right-4">
-              <div className="bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-lg">
-                <Coffee className="w-5 h-5 text-gray-700" />
-              </div>
-            </div>
+            
           </div>
           
           {/* 品牌資訊 */}
@@ -44,10 +40,7 @@ export function BrandCard({ brand }) {
               <h2 className={`text-xl font-bold bg-gradient-to-r ${colorClass} bg-clip-text text-transparent`}>
                 {brand.name}
               </h2>
-              <div className="flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-400 fill-current" />
-                <span className="text-sm text-gray-600">4.8</span>
-              </div>
+              
             </div>
             
             <div className="flex items-center justify-between">
