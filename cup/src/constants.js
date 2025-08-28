@@ -26,8 +26,8 @@ export const STORES_DATA = {
         "name": "鬍子茶",
         "image": "huzi",
         "branches": [
-          { "storeName": "微風北車店", "address": "台北市松山區復興南路一段39號G樓67櫃" ,"time": "09:00-22:30" ,"tele":"(​02) 2314-9299"},
-          { "storeName": "微風廣場店", "address": "台北市中正區北平西路3號2樓" ,"time": "AM09:00-PM10:30" ,"tele":"(02)8772-9798"},
+          { "storeName": "微風北車店", "address": "台北市中正區北平西路3號2樓" ,"time": "09:00-22:30" ,"tele":"(​02) 2314-9299"},
+          { "storeName": "微風廣場店", "address": "台北市松山區復興南路一段39號G樓67櫃" ,"time": "AM09:00-PM10:30" ,"tele":"(02)8772-9798"},
           { "storeName": "台北 ATT 店", "address": "台北市信義區松壽路12號" ,"time": "AM09:00-PM10:30" ,"tele":"​(02) 7745-0666"},
           { "storeName": "台北林森南店", "address": "台北市中正區林森南路61巷10-11號" ,"time": "AM09:00-PM10:30" ,"tele":"(02)2341-7935s"}
         ]
